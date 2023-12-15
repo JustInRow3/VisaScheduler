@@ -1,6 +1,3 @@
-from selenium.webdriver.common.keys import Keys
-from selenium.common.exceptions import NoSuchElementException as NSE
-import openpyxl
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -9,12 +6,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
-import configparser
-import os
-import misc
-import pandas as pd
-import requests
-
 
 #Chromedriver Options
 options = Options()
